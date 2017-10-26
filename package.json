@@ -26,6 +26,6 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "trustgraph-relay": "git+https://gitee.com/trustgraph/trustgraph-relay.git"
+    "trustgraph-relay": "git+ssh://git@gitee.com:trustgraph/trustgraph-relay.git"
   }
 }
