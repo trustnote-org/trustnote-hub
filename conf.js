@@ -8,7 +8,7 @@ exports.minClientVersion = '1.11.1';
 exports.pushApiProjectNumber = 0;
 exports.pushApiKey = '';
 
-exports.port = 6611;
+exports.port = 6655;
 //exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;
@@ -72,7 +72,7 @@ exports.initial_witnesses = [
 ];
 */
 exports.initial_peers = [
-	'wss://trustgraph.org/bb'
+	'wss://trustgraph.org/tg'
 ];
 
 console.log('finished hub conf');
