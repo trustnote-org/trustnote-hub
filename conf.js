@@ -71,8 +71,8 @@ exports.initial_witnesses = [
 	'ZVT76QDYAXIIVYMWJWFMJPGYBZRY7JW7'
 ];
 */
-exports.initial_peers = [
-	'wss://trustgraph.org/tg'
+exports.initial_peers = [:
+	'ws://172.16.0.6/tg'
 ];
 
 console.log('finished hub conf');
