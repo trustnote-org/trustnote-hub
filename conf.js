@@ -72,7 +72,7 @@ exports.initial_witnesses = [
 ];
 */
 exports.initial_peers = [:
-	'ws://172.16.0.6/tg'
+	'ws://123.206.95.213/tg'
 ];
 
 console.log('finished hub conf');
