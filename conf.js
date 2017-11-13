@@ -71,7 +71,7 @@ exports.initial_witnesses = [
 	'ZVT76QDYAXIIVYMWJWFMJPGYBZRY7JW7'
 ];
 */
-exports.initial_peers = [:
+exports.initial_peers = [
 	'ws://123.206.95.213/tg'
 ];
 
