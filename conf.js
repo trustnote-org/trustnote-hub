@@ -2,7 +2,7 @@
 "use strict";
 
 exports.clientName = 'trustgraph';
-exports.minClientVersion = '1.11.2';
+exports.minClientVersion = '1.10.1';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;

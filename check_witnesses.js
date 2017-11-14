@@ -1,4 +1,4 @@
-/*jslint node: true */
+trustgraph-common/*jslint node: true */
 "use strict";
 var db = require('trustgraph-common/db.js');
 var storage = require('trustgraph-common/storage.js');
