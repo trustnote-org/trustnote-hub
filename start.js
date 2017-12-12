@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-require('trustgraph-relay');
+require('trustnote-relay');
 var conf = require('./conf');
-var network = require('trustgraph-common/network');
-var eventBus = require('trustgraph-common/event_bus.js');
+var network = require('trustnote-common/network');
+var eventBus = require('trustnote-common/event_bus.js');
 var push = require('./push');
 
 eventBus.on('peer_version', function (ws, body) {

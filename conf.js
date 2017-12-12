@@ -1,7 +1,7 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'trustgraph';
+exports.clientName = 'trustnote';
 exports.minClientVersion = '1.10.1';
 
 // https://console.developers.google.com

@@ -1,6 +1,6 @@
-var db = require('trustgraph-common/db');
-var conf = require('trustgraph-common/conf');
-var eventBus = require('trustgraph-common/event_bus.js');
+var db = require('trustnote-common/db');
+var conf = require('trustnote-common/conf');
+var eventBus = require('trustnote-common/event_bus.js');
 var https = require('https');
 
 
@@ -54,7 +54,7 @@ function sendRest(registrationIds) {
 		"registration_ids": registrationIds,
 		"data": {
 			"message": "New message",
-			"title": "Trustgraph",
+			"title": "Trustnote",
 			"vibrate": 1,
 			"sound": 1
 		}

@@ -1,2 +1,2 @@
-*/5 * * * * cd trustgraph-hub; node check_daemon.js 1>>~/.config/trustgraph-hub/check_daemon.log 2>>~/.config/trustgraph-hub/check_daemon.err
-*/15 * * * * cd trustgraph-hub; node check_witnesses.js 1>>~/.config/trustgraph-hub/check_witnesses.log 2>>~/.config/trustgraph-hub/check_witnesses.err
+*/5 * * * * cd trustnote-hub; node check_daemon.js 1>>~/.config/trustnote-hub/check_daemon.log 2>>~/.config/trustnote-hub/check_daemon.err
+*/15 * * * * cd trustnote-hub; node check_witnesses.js 1>>~/.config/trustnote-hub/check_witnesses.log 2>>~/.config/trustnote-hub/check_witnesses.err

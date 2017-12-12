@@ -1,9 +1,9 @@
-trustgraph-common/*jslint node: true */
+trustnote-common/*jslint node: true */
 "use strict";
-var db = require('trustgraph-common/db.js');
-var storage = require('trustgraph-common/storage.js');
-var mail = require('trustgraph-common/mail.js');
-var conf = require('trustgraph-common/conf.js');
+var db = require('trustnote-common/db.js');
+var storage = require('trustnote-common/storage.js');
+var mail = require('trustnote-common/mail.js');
+var conf = require('trustnote-common/conf.js');
 
 function notifyAdmin(message){
 	write(message);
