@@ -2,7 +2,7 @@
   "name": "trustnote-hub",
   "description": "Trustnote Hub",
   "author": "Trustnote",
-  "version": "0.1.5",
+  "version": "0.1.0",
   "main": "start.js",
   "keywords": [
     "hub",
