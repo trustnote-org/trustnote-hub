@@ -44,7 +44,7 @@ exports.initial_peers = [
 'wss://horsen.trustnote.org/tn',
 'wss://claire.trustnote.org/tn',
 'wss://patric.trustnote.org/tn',
-'wss://sure.trustnote.org/tn',
+'wss://sure.trustnote.org/tn'
 ];
 
 console.log('finished hub conf');
