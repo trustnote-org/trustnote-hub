@@ -24,18 +24,18 @@ exports.storage = 'sqlite';
 
 
 exports.initial_witnesses = [
-	'6KPISPGMAHERC257F75ZUDHKQZUQPNY5',
-	'6VKS5LF34QDDZRDDMMIULM5SRKWUE3YD',
-	'73K3UOOOZ2BK2V3BDEWPHLZ3HOUAT2TZ',
-	'7TQCSQQW4JILCCWH4VJMET3QM732HIGG',
-	'FC33FU3F5PGDFCW6CLK7AXMFFTPPGDEV',
-	'N4C2Y2DN5H6QXM3XBY7UD6DPMKXRXBTR',
-	'NKKS4R7NXKZBFOH6L5KEJSYT4D52N3U5',
-	'Q24ZGPFDUG7OCJJF7LA4PUIKSHQ4D4QG',
-	'R6ZQPOMHUMJF3DMKCD3CPZNYMVGJ5AIX',
-	'UGNLJAEQ5BT6KX3VWD57KKPQ73VX4SWW',
-	'WPIHACDCVHBQZ564DXWXTRTMV6DRWJ7X',
-	'YOSNQIOAERMAQDKN2JDR2B6UO3W5UGOE'
+	'4MOQ4BKKIYLPIW2EBIPPYKAVKZKKAGUU',
+	'5EOIHMAKADLGJPA3V7I6WFPP25UJGVFO',
+	'73ZYEJQUAONT6CM43JPGVMOIWDSSTOWU',
+	'ABV25PLKEIP7UPJGW36N5KEVZITOJP62',
+	'BEB2GIH7ZFPTRZULYVTSDCRA4SOUDZE7',
+	'FEBQADJX3YJBMYG7M3762REGC3LX7IGY',
+	'FIFZLR4ZBCE7AWUH4CTDFHFZH7HMQ3WC',
+	'HSK4ZFD2XJ3OPGVIMEOPH7HI5OV6NQHY',
+	'L7YICPOR2U4QSMLPU7BXYWURKBFT2NB6',
+	'PDWOVHJUS3ISA6EHIINUSUIJFNR3LY25',
+	'TOLHUGF72FZR2H44ZLA6LVKFKFXGPIIE',
+	'YURUGBTFGLFXU4Y2PKPYYLPZKQSRQ7PL'
 ];
 
 exports.initial_peers = [
@@ -45,18 +45,6 @@ exports.initial_peers = [
 'wss://claire.trustnote.org/tn',
 'wss://patric.trustnote.org/tn',
 'wss://sure.trustnote.org/tn',
-'wss://victor.trustnote.org/tn',
-'wss://eason.trustnote.org/tn',
-'wss://lynn.trustnote.org/tn',
-'wss://bob.trustnote.org/tn',
-'wss://curry.trustnote.org/tn',
-'wss://kake.trustnote.org/tn',
-'wss://john.trustnote.org/tn',
-'wss://jean.trustnote.org/tn',
-'wss://christina.trustnote.org/tn',
-'wss://bertram.trustnote.org/tn',
-'wss://richard.trustnote.org/tn',
-'wss://shawray.trustnote.org/tn',
 ];
 
 console.log('finished hub conf');
