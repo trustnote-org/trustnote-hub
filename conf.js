@@ -39,9 +39,24 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-'wss://galilei.trustnote.org/tn',
-'wss://newton.trustnote.org/tn',
-'wss://einstein.trustnote.org/tn'
+'wss://jeff.trustnote.org/tn',
+'wss://snow.trustnote.org/tn',
+'wss://horsen.trustnote.org/tn',
+'wss://claire.trustnote.org/tn',
+'wss://patric.trustnote.org/tn',
+'wss://sure.trustnote.org/tn',
+'wss://victor.trustnote.org/tn',
+'wss://eason.trustnote.org/tn',
+'wss://lynn.trustnote.org/tn',
+'wss://bob.trustnote.org/tn',
+'wss://curry.trustnote.org/tn',
+'wss://kake.trustnote.org/tn',
+'wss://john.trustnote.org/tn',
+'wss://jean.trustnote.org/tn',
+'wss://christina.trustnote.org/tn',
+'wss://bertram.trustnote.org/tn',
+'wss://richard.trustnote.org/tn',
+'wss://shawray.trustnote.org/tn',
 ];
 
 console.log('finished hub conf');
