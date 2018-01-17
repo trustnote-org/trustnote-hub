@@ -1,8 +1,8 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'trustnote';
-exports.minClientVersion = '1.0.0';
+exports.clientName = 'TTT';
+exports.minClientVersion = '1.0.6';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;
@@ -39,12 +39,12 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-'wss://jeff.trustnote.org/tn',
-'wss://snow.trustnote.org/tn',
-'wss://horsen.trustnote.org/tn',
-'wss://claire.trustnote.org/tn',
-'wss://patric.trustnote.org/tn',
-'wss://sure.trustnote.org/tn'
+'wss://victor.trustnote.org/tn',
+'wss://eason.trustnote.org/tn',
+'wss://lymn.trustnote.org/tn',
+'wss://bob.trustnote.org/tn',
+'wss://curry.trustnote.org/tn',
+'wss://kake.trustnote.org/tn'
 ];
 
 console.log('finished hub conf');
