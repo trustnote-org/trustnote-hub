@@ -2,7 +2,7 @@
 "use strict";
 
 exports.clientName = 'TTT';
-exports.minClientVersion = '1.0.6';
+exports.minClientVersion = '1.1.0';
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;

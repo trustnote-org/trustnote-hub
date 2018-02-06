@@ -8,6 +8,8 @@ var push = require('./push');
 
 eventBus.on('peer_version', function (ws, body) {
 	if (body.program == conf.clientName) {
+		if (conf.minClientVersion && compareVersions(body.program_version, '1.0.7') == '==')
+			return;
 		if (conf.minClientVersion && compareVersions(body.program_version, conf.minClientVersion) == '<')
 			network.sendJustsaying(ws, 'new_version', {version: conf.minClientVersion});
 		// if (compareVersions(body.program_version, '1.5.1') == '<')
