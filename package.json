@@ -1,7 +1,7 @@
 {
   "name": "trustnote-hub",
-  "description": "Trustnote Hub",
-  "author": "Trustnote",
+  "description": "TrustNote Hub",
+  "author": "TrustNote",
   "version": "0.1.0",
   "main": "start.js",
   "keywords": [
@@ -15,17 +15,17 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://gitee.com/trustnote/trustnote-hub.git",
+    "url": "https://github.com/trustnote/trustnote-hub.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://gitee.com/trustnote/trustnote-hub/issues"
+    "url": "https://github.com/trustnote/trustnote-hub/issues"
   },
   "browser": {
     "request": "browser-request",
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "trustnote-relay": "git+ssh://git@gitee.com:trustnote/trustnote-relay.git"
+    "trustnote-relay": "git+https://github.com/trustnote/trustnote-relay.git"
   }
 }
