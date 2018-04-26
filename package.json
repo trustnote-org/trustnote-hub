@@ -26,6 +26,6 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "trustnote-relay": "git+https://github.com/trustnote/trustnote-relay.git"
+    "trustnote-relay": "file:../trustnote-relay"
   }
 }
