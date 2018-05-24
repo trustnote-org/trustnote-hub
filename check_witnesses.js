@@ -1,4 +1,4 @@
-trustnote-common/*jslint node: true */
+/*jslint node: true */
 "use strict";
 var db = require('trustnote-common/db.js');
 var storage = require('trustnote-common/storage.js');
