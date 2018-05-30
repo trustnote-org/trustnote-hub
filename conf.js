@@ -2,7 +2,8 @@
 "use strict";
 
 exports.clientName = 'TTT';
-exports.minClientVersion = '1.1.0';
+exports.minClientVersion = '1.1.6';
+exports.notes = {"version":"v1.1.6","ignore":true,"msg":{"en":["Add textcoin","Device address error bug fixes","bugs fixes"],"cn":["新增 textcoin(T口令红包)功能","修复设备地址错误问题","已知问题修复"]}};
 
 // https://console.developers.google.com
 exports.pushApiProjectNumber = 0;

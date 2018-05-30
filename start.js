@@ -7,14 +7,14 @@ var eventBus = require('trustnote-common/event_bus.js');
 var push = require('./push');
 
 eventBus.on('peer_version', function (ws, body) {
-	if (body.program == conf.clientName) {
-		if (conf.minClientVersion && compareVersions(body.program_version, '1.0.7') == '==')
-			return;
-		if (conf.minClientVersion && compareVersions(body.program_version, conf.minClientVersion) == '<')
-			network.sendJustsaying(ws, 'new_version', {version: conf.minClientVersion});
-		// if (compareVersions(body.program_version, '1.5.1') == '<')
-		// 	ws.close(1000, "mandatory upgrade");
-	}
+        if (body.program == conf.clientName) {
+                if (conf.minClientVersion && compareVersions(body.program_version, '1.1.3') == '<')
+                        return;
+                if (conf.minClientVersion && compareVersions(body.program_version, conf.minClientVersion) == '<')
+                        network.sendJustsaying(ws, 'new_version', conf.notes);
+                // if (compareVersions(body.program_version, '1.5.1') == '<')
+                //      ws.close(1000, "mandatory upgrade");
+        }
 });
 
 function compareVersions(currentVersion, minVersion) {
