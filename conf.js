@@ -1,27 +1,28 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'TTT';
-exports.minClientVersion = '1.1.6';
-exports.notes = {"version":"v1.1.6","ignore":true,"msg":{"en":["Add textcoin","Device address error bug fixes","bugs fixes"],"cn":["新增 textcoin(T口令红包)功能","修复设备地址错误问题","已知问题修复"]}};
+exports.clientName		= 'TTT';
+exports.minClientVersion	= '1.1.6';
+exports.notes			= {"version":"v1.1.6","ignore":true,"msg":{"en":["Add textcoin","Device address error bug fixes","bugs fixes"],"cn":["新增 textcoin(T口令红包)功能","修复设备地址错误问题","已知问题修复"]}};
 
 // https://console.developers.google.com
-exports.pushApiProjectNumber = 0;
-exports.pushApiKey = '';
+exports.pushApiProjectNumber	= 0;
+exports.pushApiKey		= '';
 
-exports.port = 6655;
-//exports.myUrl = 'wss://mydomain.com/bb';
-exports.bServeAsHub = true;
-exports.bSaveJointJson = true;
-exports.bLight = false;
+exports.port			= 6655;
+//exports.myUrl			= 'wss://mydomain.com/bb';
+exports.bServeAsHub		= true;
+exports.bSaveJointJson		= true;
+exports.bLight			= false;
+exports.bDebug			= false;
 
-// this is used by wallet vendor only, to redirect bug reports to developers' email
-exports.bug_sink_email = 'admin@example.org';
-exports.bugs_from_email = 'bugs@example.org';
+//	this is used by wallet vendor only, to redirect bug reports to developers' email
+exports.bug_sink_email		= 'admin@example.org';
+exports.bugs_from_email		= 'bugs@example.org';
 
-exports.HEARTBEAT_TIMEOUT = 300*1000;
+exports.HEARTBEAT_TIMEOUT	= 300 * 1000;
 
-exports.storage = 'sqlite';
+exports.storage			= 'sqlite';
 
 
 exports.initial_witnesses = [
