@@ -29,7 +29,8 @@ exports.WS_PROTOCOL = 'ws://';
 exports.pushApiProjectNumber = 0;
 exports.pushApiKey = '';
 
-exports.port = 6617;
+//exports.port = 6616;	// modi initial_peers "ws://172.16.0.6:6617", hub1
+exports.port = 6617; // modi initial_peers "ws://172.16.0.6:6616", hub2
 //exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;
@@ -61,7 +62,8 @@ exports.initial_witnesses = [
 
 
 exports.initial_peers = [
-	"ws://172.16.0.6:6616"
+	"ws://172.16.0.6:6616",
+	//	"ws://172.16.0.7:6617"
 ];
 exports.trustedRegistries = {
 	'WO5JFJREQMTMYB66TSBX2R5IICATFDLU': 'market'
