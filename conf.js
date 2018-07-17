@@ -4,17 +4,32 @@
 exports.clientName = 'TTT';
 
 exports.minClientVersion = '1.2.0';
-exports.notes = {"version":"1.2.0","ignore":true,"msg":{"en":["Add textcoin","Device address error bug fixes","bugs fixes"],"cn":["新增 textcoin(T口令红包)功能","修复设备地址错误问题","已知问题修复"]}};
+exports.notes = {
+	"version": "1.2.0",
+	"ignore": true,
+	"msg": {
+		"en": ["Add textcoin", "Device address error bug fixes", "bugs fixes"],
+		"cn": ["新增 textcoin(T口令红包)功能", "修复设备地址错误问题", "已知问题修复"]
+	}
+};
 
 exports.minNewClientVersion = '2.1.0';
-exports.newNotes = {"version":"2.1.0","ignore":true,"msg":{"en":["Add textcoin","Device address error bug fixes","bugs fixes"],"cn":["新增 textcoin(T口令红包)功能","修复设备地址错误问题","已知问题修复"]}};
+exports.newNotes = {
+	"version": "2.1.0",
+	"ignore": true,
+	"msg": {
+		"en": ["Add textcoin", "Device address error bug fixes", "bugs fixes"],
+		"cn": ["新增 textcoin(T口令红包)功能", "修复设备地址错误问题", "已知问题修复"]
+	}
+};
 
 
 // https://console.developers.google.com
+exports.WS_PROTOCOL = 'ws://';
 exports.pushApiProjectNumber = 0;
 exports.pushApiKey = '';
 
-exports.port = 6655;
+exports.port = 6617;
 //exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = true;
 exports.bSaveJointJson = true;
@@ -24,33 +39,32 @@ exports.bLight = false;
 exports.bug_sink_email = 'admin@example.org';
 exports.bugs_from_email = 'bugs@example.org';
 
-exports.HEARTBEAT_TIMEOUT = 300*1000;
+exports.HEARTBEAT_TIMEOUT = 300 * 1000;
 
 exports.storage = 'sqlite';
 
 
 exports.initial_witnesses = [
-	'2SATGZDFDXNNJRVZ52O4J6VYTTMO2EZR',
-	'33RVJX3WBNZXJOSFCU6KK7O7TVEXLXGR',
-	'FYQXBPQWBPXWMJGCHWJ52AK2QMEOICR5',
-	'J3XIKRBU4BV2PX2BP4PSGIXDVND2XRIF',
-	'K5JWBZBADITKZAZDTHAPCU5FLYVSM752',
-	'KM5FZPIP264YRRWRQPXF7F7Y6ETDEW5Y',
-	'NBEFJ3LKG2SBSBK7D7GCFREOAFMS7QTQ',
-	'RIHZR7AHPVKZWTTDWI6UTKC7L73BJJQW',
-	'TIPXQ4CAO7G4C4P2P4PEN2KQK4MY73WD',
-	'X27CW2UWU5SGE647LK5SBTIPOOIQ7GJT',
-	'X6DWZUEW4IBFR77I46CAKTJVK4DBPOHE',
-	'XIM76DRNUNFWPXPI5AGOCYNMA3IOXL7V'
+	"34NRY6HRBMWYMJQUKBF22R7JEKXYUHHW",
+	"3C3OHD7WEFKV6RDF2U4M74RVK7YMDP7I",
+	"4QBVMWX7DRAIVV4CZEVKS3IAQAFDPFBB",
+	"4VCBX74SQMW46OKDTHXDVIFVIP2V6NFX",
+	"4VYYR2YO6NV4NTF572AUBEKJLSTM4J4E",
+	"AKB7DYDKTIMSOUNHUFB5PHKXOOYCM3YF",
+	"B4Z366GZMCWJGPCQI5ROPK3L5OEBT7QD",
+	"D27P6DGHLPO5A7MSOZABHOOWQ3BJ56ZI",
+	"I6IK6MIYY34C4LV3JU6MNMGCJJN6VSKC",
+	"KPQ3CRPBG5FSKVEH6Y76ETGD5D2N7QZ7",
+	"NKLP6XURGMNT3ZUCJBCUVHB6BRNZTZL5",
+	"QSOMNL7YPFQCYDKFUO63Y7RBLXDRDVJX"
 ];
 
+
 exports.initial_peers = [
-'wss://victor.trustnote.org/tn',
-'wss://eason.trustnote.org/tn',
-'wss://lymn.trustnote.org/tn',
-'wss://bob.trustnote.org/tn',
-'wss://curry.trustnote.org/tn',
-'wss://kake.trustnote.org/tn'
+	"ws://172.16.0.6:6616"
 ];
+exports.trustedRegistries = {
+	'WO5JFJREQMTMYB66TSBX2R5IICATFDLU': 'market'
+};
 
 console.log('finished hub conf');
